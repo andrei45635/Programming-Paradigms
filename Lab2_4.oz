@@ -1,3 +1,4 @@
+%written by Botond Ambrus 248/1
 declare
    fun {Insert Tree Value}
       case Tree
