@@ -17,7 +17,7 @@ fun {UnZipHelper L Xs Ys}
 	case L of nil then Xs#Ys
 	[] H|T then 
 		case H of
-			A#B then {UnZipHelper T {List.append Xs [A]} {List.append Ys [B]}}
+			X#Y then {UnZipHelper T {List.append Xs [X]} {List.append Ys [Y]}}
 		end
 	end
 end
